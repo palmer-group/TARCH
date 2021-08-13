@@ -749,7 +749,7 @@ def nanableOr(x, y):
     |                    +------+-------+-------+
     |                    | True | False | Nan   |
     +------------+-------+------+-------+-------+
-    | Value of Y | True  | True | False | Nan   |
+    | Value of Y | True  | True | True  | True  |
     |            +-------+------+-------+-------+
     |            | False | True | False | False |
     |            +-------+------+-------+-------+
