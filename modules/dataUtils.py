@@ -742,14 +742,14 @@ def nanableOr(x, y):
     :type x: bool, nan
     :type y: bool, nan
 
-    :returns: bool if both nan, x if y is nan, y if x is nan else x or y (see table below)
+    :returns: nan if both nan, x if y is nan, y if x is nan else x or y (see table below)
 
     +--------------------+----------------------+
     |                    |      Value of X      |
     |                    +------+-------+-------+
     |                    | True | False | Nan   |
     +------------+-------+------+-------+-------+
-    | Value of Y | True  | True | False | Nan   |
+    | Value of Y | True  | True | True  | True  |
     |            +-------+------+-------+-------+
     |            | False | True | False | False |
     |            +-------+------+-------+-------+
